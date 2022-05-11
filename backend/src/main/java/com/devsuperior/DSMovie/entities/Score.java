@@ -11,7 +11,7 @@ public class Score {
 	@EmbeddedId
 	private ScorePK id = new ScorePK();
 	
-	private Double valeu;
+	private Double value;
 	
 	public Score() {
 	}
@@ -32,11 +32,11 @@ public class Score {
 	}
 
 	public Double getValeu() {
-		return valeu;
+		return value;
 	}
 
 	public void setValeu(Double valeu) {
-		this.valeu = valeu;
+		this.value = valeu;
 	}
 	
 
