@@ -31,12 +31,12 @@ public class Score {
 		this.id = id;
 	}
 
-	public Double getValeu() {
+	public Double getValue() {
 		return value;
 	}
 
-	public void setValeu(Double valeu) {
-		this.value = valeu;
+	public void setValue(Double value) {
+		this.value = value;
 	}
 	
 
